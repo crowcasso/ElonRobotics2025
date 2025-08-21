@@ -1,5 +1,11 @@
 package edu.elon.robotics.base;
 
+/*
+ * Allow for two different kiwi drive ratios.
+ *
+ * @author K. Altmann and J. Hollingsworth
+ */
+
 public class KiwiDriveRatio {
 
     public double powerLeft = 0.0;
