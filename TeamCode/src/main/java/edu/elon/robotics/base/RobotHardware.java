@@ -58,7 +58,7 @@ public class RobotHardware {
          * If all 3 motors apply the same power in the
          * same direction, the robot will turn in place.
          */
-        ratio.computeRatio(drive, strafe, turn);
+        ratio.computeRatio(turn, turn, turn);
 
         /*
          * Limit the modifier.
